@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+	<header>
+		<div id="error-place"></div>
+		<input id="info-place" type="text" value="0"></input>
+	</header>
+	<main>
+		<div class="line">
+			<button id="clear-btn" class="com-btn">AC</button>
+			<button id="del-btn" class="com-btn">
+				<img src="images/del-btn.svg" alt="DEL" class="icon-com" draggable="false" />
+			</button>
+			<button id="percent-btn" class="com-btn">
+				<img src="images/percent-btn.svg" alt="PERC" class="icon-com" draggable="false" />
+			</button>
+			<button id="division-btn" class="com-btn">
+				<img src="images/division-btn.svg" alt="DIV" class="icon-com" draggable="false" />
+			</button>
+		</div>
+		<div class="line">
+			<button id="seven-btn" class="num-btn">7</button>
+			<button id="eight-btn" class="num-btn">8</button>
+			<button id="nine-btn" class="num-btn">9</button>
+			<button id="mult-btn" class="com-btn">
+				<img src="images/multiply-btn.svg" alt="MULT" class="icon-com" draggable="false" />
+			</button>
+		</div>
+		<div class="line">
+			<button id="four-btn" class="num-btn">4</button>
+			<button id="five-btn" class="num-btn">5</button>
+			<button id="six-btn" class="num-btn">6</button>
+			<button id="minus-btn" class="com-btn">
+				<img src="images/minus-btn.svg" alt="MINUS" class="icon-com" draggable="false" />
+			</button>
+		</div>
+		<div class="line">
+			<button id="one-btn" class="num-btn">1</button>
+			<button id="two-btn" class="num-btn">2</button>
+			<button id="three-btn" class="num-btn">3</button>
+			<button id="plus-btn" class="com-btn">
+				<img src="images/plus-btn.svg" alt="PLUS" class="icon-com" draggable="false" />
+			</button>
+		</div>
+		<div class="line">
+			<button id="zero-btn" class="num-btn">0</button>
+			<button id="dot-btn" class="num-btn">.</button>
+			<button id="equal-btn" class="com-btn">
+				<img src="images/equal-btn.svg" alt="EQUAL" class="icon-com" draggable="false" />
+			</button>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>

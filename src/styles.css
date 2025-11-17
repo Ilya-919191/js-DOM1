@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+#error-place {
+	width: 328px;
+	margin-bottom: 60px;
+	font-size: 20px;
+	color: red;
+}
+
+#info-place {
+	width: 328px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+
+	height: 70px;
+	padding: 15px;
+	margin-bottom: 20px;
+
+	font-size: 35px;
+	background-color: #C1C7D9;
+	border-radius: 14px;
+}
+
+.line {
+	display: flex;
+}
+
+.com-btn {
+	margin: 8px;
+	width: 70px;
+	padding-block: 10px;
+	padding-inline: 16px;
+
+	background-color: orange;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 14px;
+}
+.com-btn:hover {
+	background-color: #e3655b;
+}
+
+.num-btn {
+	margin: 8px;
+	width: 70px;
+	padding-block: 20px;
+	padding-inline: 28px;
+
+	background-color: #B2D977;
+	font-size: 24px;
+	font-weight: 600;
+	border-radius: 14px;
+}
+.num-btn:hover {
+	background-color: #7FA658;
+}
+
+.icon-com {
+	position: relative;
+	top: 3px;
+	width: 40px;
+	height: 40px;
+}
+
+#del-btn img {
+	right: 2px;
+}
+
+#zero-btn {
+	width: 157px;
+}
+
+#equal-btn {
+	background-color: #F2ACD3;
+}
+#equal-btn:hover {
+	background-color: #ca7dd6;
+}
+
+.hidden {
+	display: none;
+}
